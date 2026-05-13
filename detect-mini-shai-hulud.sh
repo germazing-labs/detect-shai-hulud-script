@@ -116,6 +116,7 @@ scan_regex_in_globs \
   '(^|[^@[:alnum:]_-])tanstack([^[:alnum:]_-]|$)|npm/tanstack@2\.0\.[4-7]|mbt@1\.2\.48|@cap-js/db-service@2\.10\.1|@cap-js/postgres@2\.2\.2|@cap-js/sqlite@2\.2\.2|intercom-client@7\.0\.4' \
   '*/package.json' \
   '*/package-lock.json' \
+  '*/bun.lock' \
   '*/yarn.lock' \
   '*/pnpm-lock.yaml' \
   '*/npm-shrinkwrap.json'
@@ -132,6 +133,7 @@ scan_regex_in_globs \
   'execution\.js|router_runtime\.js|bundle\.js|setup_bun\.js|bun_environment\.js|truffleSecrets\.json|cloud\.json|contents\.json|shai-hulud-workflow\.yml|SessionStart|folderOpen|A Mini Shai-Hulud has Appeared|api\.svix\.com|src_3387PLMB2uhXOBe3Q8sHu|github\.com/oven-sh/bun|GitHub Releases|self-hosted runner|runner registration|shai-hulud' \
   '*/package.json' \
   '*/package-lock.json' \
+  '*/bun.lock' \
   '*/yarn.lock' \
   '*/pnpm-lock.yaml' \
   '*/npm-shrinkwrap.json' \
