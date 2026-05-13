@@ -1,0 +1,1 @@
+# detect-shai-hulud-script
